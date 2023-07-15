@@ -27,7 +27,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           ABOUT ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "red" }} />
+        <Divider variant="middle" sx={{ bgcolor: "white" }} />
         <Typography mt={1} textAlign="left" variant="subtitle1">
           {" "}
           {
@@ -40,7 +40,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           FOLLOW ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "red" }} />
+        <Divider variant="middle" sx={{ bgcolor: "white" }} />
         <Stack direction="row">
           <IconButton>
             <InstagramLogo color="white" />
