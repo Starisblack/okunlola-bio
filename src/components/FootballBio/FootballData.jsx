@@ -4,7 +4,7 @@ import { SoccerBall } from "@phosphor-icons/react";
 const FootballData = () => {
   return (
     <Stack>
-      <Stack px={3} spacing={1.2}>
+      <Stack  spacing={1.2}>
         <Stack spacing={2} direction="row" alignItems="center">
           <IconButton sx={{padding: 0}}>
             <SoccerBall />
