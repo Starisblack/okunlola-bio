@@ -1,4 +1,4 @@
-import { Divider, IconButton, Stack, Typography } from "@mui/material";
+import {Divider, IconButton, Stack, Typography } from "@mui/material";
 import { SoccerBall } from "@phosphor-icons/react";
 import ReactSkillbar from "react-skillbars";
 
@@ -24,7 +24,10 @@ const FootballSkills = () => {
         </Stack>
 
         <Divider variant="middle" sx={{ bgcolor: "white" }} />
-        <ReactSkillbar animationDelay={1000} skills={skills} height={22}  />
+
+        <Stack>
+          <ReactSkillbar animationDelay={1000} skills={skills} height={22} />
+        </Stack>
         {/* <Stack direction="row" spacing={1} sx={{mt: 1}} pl={{md: 4}}>
     
         <Stack>
