@@ -27,7 +27,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           ABOUT ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "white" }} />
+        <Divider  variant="middle" sx={{ bgcolor: "white", width: "70%", mx: "auto !important" }} />
         <Typography mt={1} textAlign="left" variant="subtitle1">
           {" "}
           {
@@ -40,7 +40,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           FOLLOW ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "white" }} />
+        <Divider variant="middle" sx={{ bgcolor: "white", width: "70%", mx: "auto !important" }} />
         <Stack direction="row">
           <IconButton>
             <InstagramLogo size={30} color="white" />
@@ -55,7 +55,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           CONTACT ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "white" }} />
+        <Divider variant="middle" sx={{ bgcolor: "white", width: "70%", mx: "auto !important" }} />
         <Stack>
           <Stack alignItems="center" direction="row">
             <IconButton>

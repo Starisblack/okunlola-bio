@@ -1,8 +1,10 @@
-import {Divider, IconButton, Stack, Typography } from "@mui/material";
+import {Divider, IconButton, Stack, Typography, useMediaQuery } from "@mui/material";
 import { SoccerBall } from "@phosphor-icons/react";
 import ReactSkillbar from "react-skillbars";
 
 const FootballSkills = () => {
+
+    const matches = useMediaQuery('(max-width:900px)');
   const skills = [
     { type: "Leadership", level: 85 },
     { type: "Dribbling", level: 95 },
@@ -10,6 +12,7 @@ const FootballSkills = () => {
     { type: "Passing", level: 88 },
     { type: "Communication", level: 100 },
   ];
+
 
   return (
     <Stack>
@@ -26,7 +29,7 @@ const FootballSkills = () => {
         <Divider variant="middle" sx={{ bgcolor: "white" }} />
 
         <Stack>
-          <ReactSkillbar animationDelay={500} skills={skills} height={22} />
+          <ReactSkillbar animationDelay={"500ms"} skills={skills} height={matches ? 30 : 20} />
         </Stack>
         {/* <Stack direction="row" spacing={1} sx={{mt: 1}} pl={{md: 4}}>
     

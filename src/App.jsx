@@ -8,7 +8,7 @@ const App = () => {
       sx={{ width: "700px", minHeight: "100vh", margin: "0 auto" }}
       maxWidth="100%"
     >
-      <Box sx={{ width: "100%", height: "100%", p: 5, color: "white" }}>
+      <Box sx={{height: "100%", p: 5, color: "white" }}>
         <Grid container  spacing={{xs: 4, md: 0}} sx={{ width: "100%", height: "100%" }}>
           <Grid item xs={12} md={5}>
             <Profile />
