@@ -26,7 +26,7 @@ const FootballSkills = () => {
         <Divider variant="middle" sx={{ bgcolor: "white" }} />
 
         <Stack>
-          <ReactSkillbar animationDelay={1000} skills={skills} height={22} />
+          <ReactSkillbar animationDelay={500} skills={skills} height={22} />
         </Stack>
         {/* <Stack direction="row" spacing={1} sx={{mt: 1}} pl={{md: 4}}>
     

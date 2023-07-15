@@ -43,10 +43,10 @@ const Profile = () => {
         <Divider variant="middle" sx={{ bgcolor: "white" }} />
         <Stack direction="row">
           <IconButton>
-            <InstagramLogo color="white" />
+            <InstagramLogo size={30} color="white" />
           </IconButton>
           <IconButton>
-            <FacebookLogo color="white" />
+            <FacebookLogo size={30} color="white" />
           </IconButton>
         </Stack>
       </Stack>
@@ -55,7 +55,7 @@ const Profile = () => {
         <Typography textAlign="center" variant="body2" sx={{ fontWeight: 600 }}>
           CONTACT ME
         </Typography>
-        <Divider variant="middle" sx={{ bgcolor: "red" }} />
+        <Divider variant="middle" sx={{ bgcolor: "white" }} />
         <Stack>
           <Stack alignItems="center" direction="row">
             <IconButton>
