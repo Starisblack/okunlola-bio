@@ -6,6 +6,11 @@ body {
 }
 
 
+.MuiTypography-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+
 .skillbar{
   background: #cdcdcd !important ;
 }
