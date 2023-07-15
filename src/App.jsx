@@ -6,7 +6,7 @@ const App = () => {
   
   return (
     <Box
-      sx={{ width: "700px", minHeight: "100vh", margin: "0 auto" }}
+      sx={{ width: "900px", minHeight: "100vh", margin: "0 auto" }}
       maxWidth="100%"
     >
       <Box sx={{height: "100%", p: {xs: 3, sm: 5}, color: "white" }}>
