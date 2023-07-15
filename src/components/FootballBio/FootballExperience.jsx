@@ -20,11 +20,11 @@ const FootballExperience = () => {
             <Typography sx={{color: "red"}} fontWeight={300} variant="subtitle1">2007 - 2019</Typography>
           </Stack>
           <Stack>
-            <Typography fontWeight={500} variant="subtitle1">Lagelu Local Gov Team</Typography>
+            <Typography fontWeight={500} variant="subtitle1">Oyo State Football Team</Typography>
             <Typography sx={{color: "red"}} fontWeight={300} variant="subtitle1">2019 - 2022</Typography>
           </Stack>
           <Stack>
-            <Typography fontWeight={500} variant="subtitle1">ATLAST Sport Team</Typography>
+            <Typography fontWeight={500} variant="subtitle1">Success Star Elite Team</Typography>
             <Typography sx={{color: "red"}} fontWeight={300} variant="subtitle1">2022 - Present</Typography>
           </Stack>
         </Stack>
